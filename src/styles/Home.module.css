@@ -1,0 +1,53 @@
+.container {
+  background: #F356EF;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tryItOutButton {
+  border-color: white;
+}
+
+.mintModal {
+  background-color: white;
+  padding: 48px 48px 24px 48px;
+  border-radius: 20px;
+  color: black;
+  gap: 25px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.mintModalTitle {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.exitButton {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+
+  background: none;
+  border: none;
+  transform: rotate(45deg);
+  color: rgba(37, 49, 76, 0.3);
+  font-size: 24px;
+}
