@@ -1,38 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# scan-nft: Web3's Missing QR Bridge 🌉
 
-## Getting Started
+Imagine minting an NFT as easily as paying for your coffee. scan-nft transforms the Web3 experience by eliminating the notorious "Connect Wallet" barrier. Users simply scan a QR code with their mobile wallet, review the transaction details, and sign – all within their trusted wallet environment.
 
-First, run the development server:
+## Why It Matters
+* No more wallet connection prompts
+* Enhanced privacy (dapps can't track your wallet address)
+* Perfect for IRL events and NFT drops
+* Seamless one-tap minting experience
+* Instant transaction status updates
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## For Creators & Developers
+Launch NFT collections without building complex dapp interfaces. Share your mint QR codes directly on social platforms, at physical events, or wherever your community lives. It's Web3 interaction, simplified.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technical Stack
+Built with modern Web3 architecture:
+* **Frontend**: Next.js for lightning-fast performance
+* **Blockchain**: ethers.js for robust interactions
+* **Smart Contracts**: Solidity for secure implementation
+* **Features**: Custom QR parser with transaction data embedding and webhook support
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Key Innovation
+scan-nft reimagines NFT minting by bridging the gap between physical and digital spaces, making blockchain interactions as natural as scanning a QR code. Perfect for token-gated events, exclusive drops, or seamless community engagement.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+*We're not just building another NFT tool – we're crafting the future of Web3 interactions, one scan at a time.* 🚀
